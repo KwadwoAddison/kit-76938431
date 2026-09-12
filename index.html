@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>East 7 Street — Theater District, Manhattan</title>
+<meta name="description" content="2 Bed · 2 Bath high-rise residence in the Theater District. Private balcony, panoramic skyline views, full-time doorman, pool & fitness. $7,355/mo.">
+<style>
+:root{--ink:#141414;--paper:#faf7f1;--dim:#6b6b6b;--gold:#b97a2a;--line:#e5e0d5}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--paper);line-height:1.6}
+.sans{font-family:-apple-system,'Helvetica Neue',Arial,sans-serif}
+header{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:18px 40px;background:rgba(250,247,241,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.brand{font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+.price-tag{font-size:14px;color:var(--gold);letter-spacing:.08em}
+.hero{position:relative;height:92vh;min-height:560px;overflow:hidden;display:flex;align-items:flex-end}
+.hero-media{position:absolute;inset:0}
+.hero-media img{width:100%;height:100%;object-fit:cover}
+.hero-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,20,20,.05) 40%,rgba(20,20,20,.62) 100%)}
+.hero-text{position:relative;z-index:2;color:#fff;padding:0 6vw 9vh;max-width:900px}
+.kicker{font-family:-apple-system,Arial,sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:#e8c897;margin-bottom:14px}
+h1{font-size:clamp(38px,5.6vw,72px);line-height:1.08;font-weight:400}
+h1 em{color:#e8c897;font-style:italic}
+.sub{margin-top:16px;font-size:clamp(16px,1.6vw,20px);color:#f0ede6}
+.facts{display:flex;gap:28px;margin-top:26px;font-family:-apple-system,Arial,sans-serif;font-size:14px;flex-wrap:wrap}
+.facts span{border:1px solid rgba(255,255,255,.35);padding:8px 16px;border-radius:999px}
+section{max-width:1100px;margin:0 auto;padding:72px 40px}
+.k{font-family:-apple-system,Arial,sans-serif;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+h2{font-size:clamp(26px,3vw,40px);font-weight:400;margin-bottom:22px}
+.lede{font-size:clamp(17px,1.5vw,20px);color:#3d3d3d;max-width:760px}
+.amen{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:2px;margin-top:34px;background:var(--line)}
+.amen div{background:var(--paper);padding:16px 18px;font-family:-apple-system,Arial,sans-serif;font-size:14.5px}
+.gallery{display:grid;grid-template-columns:1.4fr 1fr;gap:10px}
+.gallery img{width:100%;height:100%;object-fit:cover;display:block;border-radius:4px}
+.g1{grid-row:span 2}
+.tour{position:relative}
+.tour video{width:100%;display:block;border-radius:4px}
+.cta{background:var(--ink);color:var(--paper);text-align:center;padding:64px 40px;margin-top:72px}
+.cta h2{color:#fff}
+.cta a.btn{display:inline-block;margin-top:22px;background:var(--paper);color:var(--ink);text-decoration:none;padding:15px 34px;border-radius:999px;font-family:-apple-system,Arial,sans-serif;font-size:15px;font-weight:600}
+.agent{display:flex;gap:14px;justify-content:center;align-items:center;margin-top:26px;font-family:-apple-system,Arial,sans-serif;font-size:14.5px;color:#d8d4cb;flex-wrap:wrap}
+footer{padding:26px 40px;text-align:center;font-family:-apple-system,Arial,sans-serif;font-size:12px;color:var(--dim)}
+@media(max-width:720px){.gallery{grid-template-columns:1fr}.facts{gap:12px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand">East 7 Street</div>
+ <div class="price-tag sans">$6,990 / month</div>
+</header>
+
+<div class="hero">
+ <div class="hero-media"><img src="assets/img/enhanced-hero.jpg" alt="Golden-hour living room with skyline"></div>
+ <div class="hero-scrim"></div>
+ <div class="hero-text">
+  <div class="kicker">East Village · Manhattan · New York, NY</div>
+  <h1>East Village living, <em>light-filled</em> and move-in ready.</h1>
+  <div class="sub">2 Bed · 2 Bath East Village residence · light-filled · prime location</div>
+  <div class="facts"><span>2 Bedrooms</span><span>2 Bathrooms</span><span>East Village</span><span>Move-In Ready</span></div>
+ </div>
+</div>
+
+<section>
+ <div class="k">The Residence</div>
+ <h2>Contemporary calm above the city's brightest stage.</h2>
+ <p class="lede">A 2-bedroom, 2-bath East Village residence at $6,990/mo, minutes from Union Square and the best of the neighborhood. Light-filled rooms, quality finishes, and a layout that lives well. Contact Adam Plummer at Highline Residential for a private showing.</p>
+ <div class="amen">
+  <div>Private balcony</div><div>Panoramic skyline views</div><div>Roof deck &amp; sunset views</div>
+  <div>Full-time doorman</div><div>Concierge service</div><div>Resident lounge</div>
+  <div>Fitness center</div><div>Swimming pool</div><div>In-unit washer/dryer</div>
+  <div>Parking / garage</div><div>On-site storage</div><div>Pets welcome</div>
+ </div>
+</section>
+
+<section class="tour">
+ <div class="k">Cinematic Tour</div>
+ <h2>See it move.</h2>
+ <video src="assets/video/tour-hero.mp4" autoplay muted loop playsinline poster="assets/img/enhanced-hero.jpg"></video>
+</section>
+
+<section>
+ <div class="k">Gallery</div>
+ <h2>The details.</h2>
+ <div class="gallery"><img class="g1" src="assets/img/enhanced-hero.jpg" alt="Enhanced hero"><img src="assets/img/photo-02.jpg" alt="photo-02.jpg"><img src="assets/img/photo-03.jpg" alt="photo-03.jpg"></div>
+</section>
+
+<div class="cta">
+ <h2>Schedule a private viewing</h2>
+ <p class="sans" style="margin-top:8px;color:#d8d4cb">Listed by Adam Plummer · Highline Residential</p>
+ <a class="btn" href="mailto:a.plummer@hlresidential.com?subject=East%207%20Street%20—%20Viewing%20Request">Email the listing agent</a>
+ <div class="agent"><span>(646) 681-5630</span><span>·</span><span>a.plummer@hlresidential.com</span></div>
+</div>
+
+<footer>Marketing assets enhanced &amp; generated with AI for presentation. Source photos: RentHop listing 76938431. Architecture and layout preserved in enhanced imagery.</footer>
+</body>
+</html>
