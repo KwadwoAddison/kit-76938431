@@ -16,21 +16,16 @@ header{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;justify-conte
 .brand{font-family:'Fraunces',serif;font-weight:600;font-size:17px}
 .brand small{display:block;font-family:'Archivo',sans-serif;font-weight:500;font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--dim)}
 .price{font-family:'Fraunces',serif;font-size:15px;color:var(--brick);font-weight:600}
-.hero{position:relative;height:min(78vh,58vw);min-height:480px;overflow:hidden}
-.hero-media{position:absolute;inset:0}
-.hero-media img{width:100%;height:100%;object-fit:cover;object-position:72% 35%}
-.hero::after{content:'';position:absolute;inset:0;background:linear-gradient(75deg,rgba(246,241,232,.94) 0%,rgba(246,241,232,.78) 30%,rgba(246,241,232,.12) 58%,rgba(29,26,23,0) 75%)}
-.hero-text{position:absolute;left:5vw;bottom:10vh;z-index:3;max-width:560px;color:var(--ink)}
-.hero-sub{color:#4a4239}
-.overline{color:var(--brick)}
-.specs{color:var(--dim);border-top:1px solid var(--line)}
-.specs span+span::before{content:'·';margin:0 12px;color:var(--brick)}
-.overline{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:#e9c1a8;margin-bottom:14px;font-weight:600}
-h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(34px,4.6vw,62px);line-height:1.06}
-h1 em{color:#e5a684;font-style:italic}
-.hero-sub{margin-top:16px;font-size:17px;color:#efe8dc;max-width:520px}
-.specs{display:flex;gap:0;margin-top:26px;border-top:1px solid rgba(255,255,255,.35);padding-top:14px;font-size:13.5px;letter-spacing:.06em;color:#f2ece2}
-.specs span+span::before{content:'·';margin:0 12px;color:rgba(255,255,255,.5)}
+.hero{max-width:1160px;margin:0 auto;padding:120px 40px 0}
+.overline{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--brick);font-weight:600;margin-bottom:18px}
+h1{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(40px,5.4vw,76px);line-height:1.04;max-width:900px}
+h1 em{color:var(--brick);font-style:italic}
+.hero-sub{margin-top:22px;font-size:18.5px;color:#4a4239;max-width:620px;line-height:1.65}
+.specs{display:flex;gap:26px;margin-top:26px;font-size:13.5px;letter-spacing:.05em;color:#4a4239;font-weight:500;flex-wrap:wrap}
+.specs span+span::before{content:'·';margin-right:26px;color:var(--brick)}
+.hero-media{margin:52px 0 0;border-radius:4px;overflow:hidden;box-shadow:0 24px 60px -24px rgba(29,26,23,.35)}
+.hero-media img{width:100%;display:block}
+section{max-width:1080px;margin:0 auto;padding:84px 40px}
 section{max-width:1080px;margin:0 auto;padding:84px 40px}
 .k{font-size:11.5px;letter-spacing:.24em;text-transform:uppercase;color:var(--brick);font-weight:600;margin-bottom:12px}
 h2{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(26px,3vw,40px);line-height:1.15;margin-bottom:20px}
@@ -68,15 +63,12 @@ footer{padding:28px 40px;text-align:center;font-size:12px;color:var(--dim);borde
 </header>
 
 <div class="hero">
+ <div class="overline">Renovated 2BR · Between 1st &amp; 2nd Ave · East Village</div>
+ <h1>The brick wall does the <em>convincing</em>.</h1>
+ <div class="hero-sub">A renovated two-bedroom off 1st Avenue — exposed brick with a working fireplace, high ceilings, marble bath, and a private balcony above the quietest block in the neighborhood.</div>
+ <div class="specs"><span>2 Bedrooms</span><span>2 Baths</span><span>Private balcony</span><span>In-unit W/D</span><span>No fee</span></div>
  <div class="hero-media"><img src="assets/img/hero-brick.jpg" alt="Exposed brick fireplace wall in the living room"></div>
- <div class="hero-text">
-  <div class="overline">Renovated 2BR · Between 1st &amp; 2nd Ave</div>
-  <h1>The brick wall does the <em>convincing</em>.</h1>
-  <div class="hero-sub">A renovated two-bedroom off 1st Avenue — exposed brick, high ceilings, marble bath, and a private balcony above the quietest block in the neighborhood.</div>
-  <div class="specs"><span>2 Bedrooms</span><span>2 Baths</span><span>Private balcony</span><span>In-unit W/D</span></div>
- </div>
 </div>
-
 <section>
  <div class="k">The apartment</div>
  <h2>Character you can't renovate back in.</h2>
